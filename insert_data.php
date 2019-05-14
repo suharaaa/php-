@@ -3,6 +3,8 @@ if (isset($_POST['submitted'])) {
 
     include('connection.php');
 
+    $newrec = "";
+
     $fname = $_POST['fn'];
     $lname = $_POST['ln'];
     
